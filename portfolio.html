@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - HATechLabs</title>
+    <meta name="description" content="Explore HATechLabs' portfolio of successful projects and case studies">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+             <div class="logo">
+                <a href="index.html">
+                <span class="logo-icon"><img style="width: 50px; height: 50px;" src="assets/images/logo-1.png" alt=""></span>
+                <span class="logo-text"><a href="index.html">HATechLabs</a></span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content animate-on-scroll">
+                <span class="page-badge">Our Portfolio</span>
+                <h1 class="page-title">Success Stories &<br><span class="gradient-text">Impactful Projects</span></h1>
+                <p class="page-subtitle">Real solutions delivering real results for businesses around the world</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Bar -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-buttons animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="fintech">FinTech</button>
+                <button class="filter-btn" data-filter="healthcare">HealthCare</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="enterprise">Enterprise</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-section section-padding">
+        <div class="container">
+            <div class="portfolio-grid-detailed">
+                <!-- Project 1 -->
+                <div class="portfolio-card-detailed glass-card animate-on-scroll" data-category="fintech">
+                    <div class="portfolio-card-image">
+                        <div class="placeholder-project-img" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <div class="project-overlay-icon">💰</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">FinTech</span>
+                            <span class="project-tag">Cloud</span>
+                        </div>
+                        <h3>NextGen Banking Platform</h3>
+                        <p>A comprehensive cloud-native banking solution serving 500K+ users with real-time transactions, advanced analytics, and AI-powered fraud detection.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>500K+</strong>
+                                <span>Active Users</span>
+                            </div>
+                            <div class="stat">
+                                <strong>99.99%</strong>
+                                <span>Uptime</span>
+                            </div>
+                            <div class="stat">
+                                <strong>40%</strong>
+                                <span>Cost Reduction</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>AWS</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <button class="btn btn-outline btn-magnetic view-case-study" data-project="1">
+                            View Case Study →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card-detailed glass-card animate-on-scroll" data-category="ecommerce">
+                    <div class="portfolio-card-image">
+                        <div class="placeholder-project-img" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <div class="project-overlay-icon">🛍️</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">E-Commerce</span>
+                            <span class="project-tag">AI</span>
+                        </div>
+                        <h3>SmartRetail AI Platform</h3>
+                        <p>AI-powered e-commerce platform with personalized recommendations, dynamic pricing, and intelligent inventory management.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>2M+</strong>
+                                <span>Monthly Orders</span>
+                            </div>
+                            <div class="stat">
+                                <strong>35%</strong>
+                                <span>Conv. Increase</span>
+                            </div>
+                            <div class="stat">
+                                <strong>$50M+</strong>
+                                <span>Revenue Impact</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Vue.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <button class="btn btn-outline btn-magnetic view-case-study" data-project="2">
+                            View Case Study →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card-detailed glass-card animate-on-scroll" data-category="healthcare">
+                    <div class="portfolio-card-image">
+                        <div class="placeholder-project-img" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <div class="project-overlay-icon">⚕️</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">HealthCare</span>
+                            <span class="project-tag">Security</span>
+                        </div>
+                        <h3>TeleMed Connect</h3>
+                        <p>HIPAA-compliant telemedicine platform enabling secure video consultations, e-prescriptions, and patient health records.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>100K+</strong>
+                                <span>Consultations</span>
+                            </div>
+                            <div class="stat">
+                                <strong>200+</strong>
+                                <span>Doctors</span>
+                            </div>
+                            <div class="stat">
+                                <strong>4.8/5</strong>
+                                <span>User Rating</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>WebRTC</span>
+                            <span>React Native</span>
+                            <span>Azure</span>
+                            <span>FHIR</span>
+                        </div>
+                        <button class="btn btn-outline btn-magnetic view-case-study" data-project="3">
+                            View Case Study →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card-detailed glass-card animate-on-scroll" data-category="enterprise">
+                    <div class="portfolio-card-image">
+                        <div class="placeholder-project-img" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <div class="project-overlay-icon">🏢</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Enterprise</span>
+                            <span class="project-tag">Automation</span>
+                        </div>
+                        <h3>WorkFlow Automation Suite</h3>
+                        <p>Enterprise automation platform streamlining HR, finance, and operations with RPA and intelligent workflows.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>10K+</strong>
+                                <span>Employees</span>
+                            </div>
+                            <div class="stat">
+                                <strong>70%</strong>
+                                <span>Time Saved</span>
+                            </div>
+                            <div class="stat">
+                                <strong>$2M</strong>
+                                <span>Annual Savings</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>UiPath</span>
+                            <span>Power BI</span>
+                            <span>SAP</span>
+                            <span>SharePoint</span>
+                        </div>
+                        <button class="btn btn-outline btn-magnetic view-case-study" data-project="4">
+                            View Case Study →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card-detailed glass-card animate-on-scroll" data-category="fintech">
+                    <div class="portfolio-card-image">
+                        <div class="placeholder-project-img" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                            <div class="project-overlay-icon">💳</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">FinTech</span>
+                            <span class="project-tag">Blockchain</span>
+                        </div>
+                        <h3>CryptoWallet Pro</h3>
+                        <p>Secure multi-currency cryptocurrency wallet with DeFi integration and advanced portfolio tracking.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>250K+</strong>
+                                <span>Wallets</span>
+                            </div>
+                            <div class="stat">
+                                <strong>50+</strong>
+                                <span>Currencies</span>
+                            </div>
+                            <div class="stat">
+                                <strong>0</strong>
+                                <span>Breaches</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>Solidity</span>
+                            <span>Web3.js</span>
+                            <span>React</span>
+                            <span>Ethereum</span>
+                        </div>
+                        <button class="btn btn-outline btn-magnetic view-case-study" data-project="5">
+                            View Case Study →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card-detailed glass-card animate-on-scroll" data-category="ecommerce">
+                    <div class="portfolio-card-image">
+                        <div class="placeholder-project-img" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            <div class="project-overlay-icon">📦</div>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Logistics</span>
+                            <span class="project-tag">IoT</span>
+                        </div>
+                        <h3>SmartLogistics Tracker</h3>
+                        <p>IoT-enabled supply chain management system with real-time tracking, predictive analytics, and route optimization.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <strong>50K+</strong>
+                                <span>Daily Shipments</span>
+                            </div>
+                            <div class="stat">
+                                <strong>25%</strong>
+                                <span>Faster Delivery</span>
+                            </div>
+                            <div class="stat">
+                                <strong>30%</strong>
+                                <span>Cost Savings</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span>IoT Core</span>
+                            <span>Machine Learning</span>
+                            <span>GCP</span>
+                            <span>Flutter</span>
+                        </div>
+                        <button class="btn btn-outline btn-magnetic view-case-study" data-project="6">
+                            View Case Study →
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="modal" id="caseStudyModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-card glass-card animate-on-scroll">
+                <h2 class="cta-title">Have a Project in Mind?</h2>
+                <p class="cta-text">
+                    Let's create your success story together
+                </p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-magnetic">
+                        Start Your Project
+                        <span class="btn-shine"></span>
+                    </a>
+                    <a href="services.html" class="btn btn-outline btn-magnetic">
+                        View Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">HATechLabs</span>
+                    </div>
+                    <p class="footer-desc">
+                        Smarter Tech, Better Future.<br>
+                        Building tomorrow's solutions today.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#cloud">Cloud Solutions</a></li>
+                        <li><a href="services.html#software">Software Development</a></li>
+                        <li><a href="services.html#ai">AI & Automation</a></li>
+                        <li><a href="services.html#security">Cybersecurity</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HATechLabs. All rights reserved. Crafted with ⚡ for the future.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/global.js"></script>
+</body>
+</html>
