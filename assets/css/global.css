@@ -4,7 +4,7 @@
    ======================================== */
 
 /* CSS Variables - Color Palette */
-:root {
+/* :root {
     /* Primary Colors - Replace with your exact palette */
     --primary: #6366f1;
     --secondary: #8b5cf6;
@@ -38,7 +38,44 @@
     /* Glass Effect */
     --glass-bg: rgba(30, 41, 59, 0.7);
     --glass-border: rgba(255, 255, 255, 0.1);
+} */
+:root {
+    /* Primary Colors - Updated Palette */
+    --primary: #FF6D1F;          /* Strong orange */
+    --secondary: #F5E7C6;        /* Light warm beige */
+    --accent: #FAF3E1;           /* Soft cream */
+    --dark: #222222;             /* Deep dark grey/black */
+    --dark-light: #333333;       /* Slightly lighter dark */
+    --text: #FFFFFF;             /* White text for contrast */
+    --text-secondary: #E8E8E8;   /* Light grey text */
+
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%);
+
+    /* Spacing */
+    --container-width: 1200px;
+    --section-padding: 100px 0;
+
+    /* Animation */
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.15);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --shadow-glow: 0 0 30px rgba(255, 109, 31, 0.3); /* Orange glow */
+
+    /* Glass Effect */
+    --glass-bg: rgba(34, 34, 34, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.1);
 }
+
 
 /* Reset & Base Styles */
 * {
@@ -1985,4 +2022,5 @@ ul {
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
     }
+
 }
